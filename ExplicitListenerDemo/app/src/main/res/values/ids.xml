@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnAndroid" type="id" />
+    <item name="btnIos" type="id" />
+    <item name="imvPic" type="id" />
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="ADD PRODUCT"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/txt_adID"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Enter ID"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <EditText
+            android:id="@+id/txt_adName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Enter name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <EditText
+            android:id="@+id/txt_adProducer"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Enter producer"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <EditText
+            android:id="@+id/txt_adPrice"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Enter price"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/bnt_okAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@android:drawable/checkbox_on_background"
+                android:cursorVisible="true"
+                android:focusableInTouchMode="true"
+                android:selectAllOnFocus="true"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light">
+
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:drawable/btn_dialog"
+                android:textColor="@android:color/background_light">
+
+            </Button>
+        </LinearLayout>
+
+</LinearLayout>

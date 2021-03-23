@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">baitapmot</string>
+    <string-array name="danhsach">
+        <item>Mỳ cay</item>
+        <item>Phở</item>
+        <item>Cơm</item>
+        <item>Nui</item>
+        <item>Bún</item>
+        <item>Bánh canh</item>
+        <item>Hủ tiếu</item>
+
+    </string-array>
+</resources>

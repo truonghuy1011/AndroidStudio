@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ngay14-5</string>
+    <string-array name="myFood">
+        <item>Mì cay</item>
+        <item>Hủ tiếu</item>
+        <item>Bún bò</item>
+        <item>Mì gói</item>
+        <item>Phở bò</item>
+        <item>Bánh xèo</item>
+        <item>Bột chiên</item>
+        <item>Sushi</item>
+    </string-array>
+</resources>

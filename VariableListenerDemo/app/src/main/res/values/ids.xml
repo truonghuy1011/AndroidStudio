@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnShow" type="id" />
+    <item name="btnHide" type="id" />
+    <item name="imvPic" type="id" />
+</resources>

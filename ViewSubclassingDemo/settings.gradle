@@ -1,0 +1,2 @@
+rootProject.name='ViewSubclassingDemo'
+include ':app'

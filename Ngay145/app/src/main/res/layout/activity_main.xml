@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgdrink"
+        android:layout_width="194dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="24dp"
+        android:onClick="showClickDrink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_drink" />
+
+    <ImageView
+        android:id="@+id/imgfood"
+        android:layout_width="229dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="76dp"
+        android:onClick="showClickFood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgdrink"
+        app:srcCompat="@drawable/icon_food" />
+
+    <ImageView
+        android:id="@+id/imgshop"
+        android:layout_width="160dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="72dp"
+        android:onClick="showClickShop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgfood"
+        app:srcCompat="@drawable/icon_sale" />
+</androidx.constraintlayout.widget.ConstraintLayout>

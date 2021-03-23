@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToastDemo</string>
+    <string name="show_toast_short">Show Toast Short</string>
+    <string name="show_toast_long">Show Toast Long</string>
+    <string name="show_alert_dialog">Show Alert Dialog</string>
+    <string name="dialog">Bạn có chắc chắn muốn đóng ứng dụng?</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="b_n_c_mu_n_tho_t_kh_i_ng_d_ng_kh_ng">Bạn Có Muốn Thoát khỏi ứng dụng không?</string>
+    <string name="todo">TODO</string>
+</resources>

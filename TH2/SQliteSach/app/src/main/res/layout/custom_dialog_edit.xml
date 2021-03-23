@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Tasks"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtSachEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:paddingTop="5dp"
+        android:hint="Edit your task"/>
+    <EditText
+        android:id="@+id/edtNXBEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:paddingTop="5dp"
+        android:hint="Edit your task"/>
+    <EditText
+        android:id="@+id/edtPriceEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:paddingTop="5dp"
+        android:hint="Edit your task"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="edit"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/btnCancelEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="CANCEL"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

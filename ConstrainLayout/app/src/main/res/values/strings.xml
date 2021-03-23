@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MutipleLanguageExample</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="type_email">Enter your email</string>
+    <string name="type_pass">Enter your password</string>
+    <string name="login">Login</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtDuong" type="id" />
+    <item name="txtAm" type="id" />
+    <item name="btnChuyen" type="id" />
+</resources>

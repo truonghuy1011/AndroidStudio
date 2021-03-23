@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đa ngôn ngữ</string>
+    <string name="email">Thư</string>
+    <string name="password">Mật khẩu:</string>
+    <string name="type_email">Nhập email của bạn</string>
+    <string name="type_pass">Nhập mật khẩu của bạn</string>
+    <string name="login">Đăng nhập</string>
+</resources>

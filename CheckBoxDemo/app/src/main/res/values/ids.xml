@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="chkFilm" type="id" />
+    <item name="chkClip" type="id" />
+    <item name="chkFPT" type="id" />
+    <item name="btnConfirm" type="id" />
+    <item name="txtKetqua" type="id" />
+    <item name="rbtTuongdoitot" type="id" />
+    <item name="rbtRattot" type="id" />
+    <item name="rbtTot" type="id" />
+    <item name="rbtTuyetvoi" type="id" />
+    <item name="imPic" type="id" />
+    <item name="btnChangePic" type="id" />
+    <item name="btnClose" type="id" />
+    <item name="btnGreen" type="id" />
+    <item name="btnBlue" type="id" />
+    <item name="btnAndroid" type="id" />
+    <item name="btnIos" type="id" />
+    <item name="txtView" type="id" />
+</resources>

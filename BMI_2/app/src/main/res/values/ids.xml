@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtHeight" type="id" />
+    <item name="edtWeight" type="id" />
+    <item name="txtResult" type="id" />
+    <item name="btnNhap" type="id" />
+</resources>
